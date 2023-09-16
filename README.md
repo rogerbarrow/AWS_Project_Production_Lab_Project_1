@@ -44,3 +44,18 @@ Step 4: SSH into the Instance     the SSH into the private host using your key p
 <img width="551" alt="image" src="https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/d551d213-d64f-4dde-9ade-90de4a30429d">
 
 
+Step 5: SSH into jump host by commad  ssh -i key-pair-name.pem ubunto@publicip (use the ls command to verify that the pem file is locate there)
+Step 6: Get the private ip adress from one of the private Instance  Enter command
+<img width="251" alt="image" src="https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/3373bd55-6ad3-4794-9652-163fbb519b2c">
+
+Step 7: Lets run a simple python app on the server with the command   python3 -m http.server 8000 
+
+Step: create the load balancer   (application load balancer) layer 7
+<img width="1129" alt="image" src="https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/ce3a116d-be96-446e-bc6f-3368bc335a55">
+
+<img width="1129" alt="image" src="https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/abfc2325-7f21-41f5-8eb4-59c50ee3bae1">
+
+
+<img width="1129" alt="image" src="https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/ce3c1cf9-079f-4873-8842-8d55c6825949">
+
+
