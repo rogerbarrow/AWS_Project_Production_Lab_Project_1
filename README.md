@@ -40,3 +40,7 @@ Step 4: For security reason you dont have a public IP so you will need to create
 <img width="1129" alt="image" src="https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/5955fd1d-58cb-4e98-a22d-7aebb0372f2d">
 
 
+Step 4: SSH into the Instance     the SSH into the private host using your key pair that should be your PC/so copy the same key pair to the jump host/ Copy the plublic IP from the bastion host.  USE Shell Commad SCP 
+<img width="551" alt="image" src="https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/d551d213-d64f-4dde-9ade-90de4a30429d">
+
+
