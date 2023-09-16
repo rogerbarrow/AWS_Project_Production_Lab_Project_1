@@ -2,6 +2,10 @@
 This example demonstrates how to create a vpc that you for servers in a production environment to improve resiliency
 Project-#1 & To improve resiliency, you deploy the servers in two availability zone, by using an Auto Scaling group and an Application Load Balancer , for additional security,you deploy the servers in private subnets, The servers receive requests through the load balancer. The servers can connect to the internet by using a NAT gateway. To improve resiliency, you deploy the NAT gateway in both Availability Zones
 
+![image](https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/2d65618d-56a7-44b5-9984-62c56ccaa968)
+
+
+
 Services involved: AWS
 
 Prerequisites
