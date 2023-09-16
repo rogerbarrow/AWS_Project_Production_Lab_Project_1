@@ -33,4 +33,10 @@ Step 2: create your auto scaling Group using a launch Template  creating your Am
 ![image](https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/5caf9816-1f0f-4937-ab6e-e9b4dde2feb5)
 
 
+Step 3: Create a Auto scaling Group using your Launch Template / launch autu scaling group into private availabity zone 1 and zone 2
+![image](https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/fe42a952-a0ef-477a-96d4-8d21826ae234)
+
+Step 4: For security reason you dont have a public IP so you will need to create a jump host/bastion host /launch A new EC2 Instance with the SSH access, make sure you are creating the EC2 in the same VPC or you will not have access 
+<img width="1129" alt="image" src="https://github.com/rogerbarrow/AWS_Project_Production_Lab_Project_1/assets/46138186/5955fd1d-58cb-4e98-a22d-7aebb0372f2d">
+
 
